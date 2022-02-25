@@ -15,7 +15,7 @@ class Counter extends Component {
 
         return (
             <div className='row'>
-                <div className="col-1">
+                <div className="col-md-3">
                     <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
                 </div>
                 <div className="col">
