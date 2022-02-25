@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Like from './like';
 
 class Counter extends Component {
     // componentDidUpdate(prevProps, prevState) {
@@ -36,6 +37,7 @@ class Counter extends Component {
                     className="btn btn-danger btn-sm m-2">
                         Delete
                     </button>
+                    <Like />
                 </div>
             </div>
         );
